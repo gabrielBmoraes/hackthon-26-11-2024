@@ -129,16 +129,16 @@ const reprovar = () => {
 
 const Formulario = () => {
 
-    const [formData, setFormData] = useState({
-        type: '',
-        inpact: '',
-        priority: '',
-        test_plan: '',
-        start_date: '',
-        end_Date: '',
-        short_description: '',
-        description: ''
-    });
+    // const [formData, setFormData] = useState({
+    //     type: '',
+    //     inpact: '',
+    //     priority: '',
+    //     test_plan: '',
+    //     start_date: '',
+    //     end_Date: '',
+    //     short_description: '',
+    //     description: ''
+    // });
 
     // const handleChange = (e) => {
     //     const { name, value } = e.target;
