@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Swal from 'sweetalert2';
 
 function _alertaSucesso(titulo, texto) {
@@ -129,26 +129,6 @@ const reprovar = () => {
 
 const Formulario = () => {
 
-    // const [formData, setFormData] = useState({
-    //     type: '',
-    //     inpact: '',
-    //     priority: '',
-    //     test_plan: '',
-    //     start_date: '',
-    //     end_Date: '',
-    //     short_description: '',
-    //     description: ''
-    // });
-
-    // const handleChange = (e) => {
-    //     const { name, value } = e.target;
-    //     setFormData({ ...formData, [name]: value });
-    // };
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     alert(`Dados enviados:\nNome: ${formData.name}\nEmail: ${formData.email}\nMensagem: ${formData.message}`);
-    // };
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', textAlign: 'center', marginTop: '2rem' }}>
