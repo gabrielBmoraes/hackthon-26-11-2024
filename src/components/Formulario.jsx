@@ -140,15 +140,15 @@ const Formulario = () => {
         description: ''
     });
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-    };
+    // const handleChange = (e) => {
+    //     const { name, value } = e.target;
+    //     setFormData({ ...formData, [name]: value });
+    // };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        alert(`Dados enviados:\nNome: ${formData.name}\nEmail: ${formData.email}\nMensagem: ${formData.message}`);
-    };
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     alert(`Dados enviados:\nNome: ${formData.name}\nEmail: ${formData.email}\nMensagem: ${formData.message}`);
+    // };
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', textAlign: 'center', marginTop: '2rem' }}>
